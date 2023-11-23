@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins" sans-serif "Helvetica";
+}
+
+body {
+  /* background-color: grey; */
+  background: url(assets/Bakcground\ alaqsyar.jpg) top center / cover;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0, 75), rgba(0, 0, 0, 0, 75)),
+    url(assets/Bakcground\ alaqsyar.jpg);
+  background-size: cover;
+  padding-bottom: 30px;
+}
+
+.logo img {
+  margin-left: -2cm;
+  padding: 10px;
+  display: flex;
+}
+
+/* height: 40px;
+padding: 20px;
+display: block;
+margin: 0;
+margin-left: -10cm; */
+
+.menu {
+  width: 85%;
+  margin: auto;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-left: 21cm; */
+}
+
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+  margin-left: 1.5cm;
+}
+
+.menu ul li a {
+  color: black;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.menu ul li a::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  /* background: rgb(255, 255, 255); */
+  background: black;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+.menu ul li a:hover::after {
+  width: 100%;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background-color: gray;
+}
+
+.header h1 {
+  font-family: sans-serif;
+}
+
+h2,
+span.auto-typed1 {
+  font-family: sans-serif;
+}
+
+/* CSS UNtuk HOme page */
+.home {
+  margin: 5%;
+  color: black;
+  text-align: center;
+}
+
+.home h1,
+p {
+  /* text-align: center; */
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+/* css untuk tampilan isi dari profile */
+.biodata-content {
+  margin: 5%;
+  color: black;
+  text-align: justify;
+  font-family: "Helvetica";
+}
+
+p.paragraf1 {
+    font-size: 19px ;
+    font-weight: 100;
+}
+
+.biodata-content ul li {
+  margin-left: 20px;
+}
+
+.biodata-content h1 {
+  text-align: center;
+}
+
+.biodata-content h2,
+p {
+  font-size: 25px;
+}
+
+.biodata-content li {
+  font-size: 19px;
+}
+
+/* css untuk tampilan isi dari news page */
+.berita-content {
+  margin: 20px;
+}
+
+.gambar {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: auto auto;
+}
+
+.gambar img {
+  margin: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 250px;
+  height: 180px;
+  justify-self: center;
+}
+
+.contact h1 {
+  padding: 20px;
+  text-align: center;
+  font-family: "Helvetica";
+}
+
+.img-contact img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  margin-left: 18.5cm;
+}
+
+.img-contact h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.logo-contact-me img {
+  display: flexbox;
+  width: 100px;
+  height: 100px;
+  float: left;
+  justify-content: end;
+  text-align: center;
+  margin-top: 2cm;
+  padding: 5px;
+  margin-left: 8.5cm;
+}
